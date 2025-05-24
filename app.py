@@ -6,8 +6,8 @@ In particular it contains the following class:
 This version of the module uses flask to make it into a web service
 '''
 from flask import Flask, request, jsonify
-#from transformers import pipeline, AutoTokenizer
-#import torch
+from transformers import pipeline, AutoTokenizer
+import torch
 
 # this is the new part - flask app
 app = Flask(__name__)
